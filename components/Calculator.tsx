@@ -23,7 +23,7 @@ export default function Calculator({ menuData }: CalculatorProps) {
     "drink" | "size" | "milk" | "syrups" | "toppings"
   >("drink");
 
-  const calculateNutrition = (): NutritionInfo => {
+  const nutrition = useMemo((): NutritionInfo => {
     if (!selectedOptions.baseDrink) {
       return { calories: 0, caffeine: 0, fat: 0, carbs: 0, protein: 0 };
     }
@@ -77,9 +77,7 @@ export default function Calculator({ menuData }: CalculatorProps) {
       carbs: Math.max(0, carbs),
       protein: Math.max(0, protein),
     };
-  };
-
-  const nutrition = useMemo(() => calculateNutrition(), [selectedOptions]);
+  }, [selectedOptions, menuData]);
 
   const handleDrinkSelect = (drink: typeof menuData.baseDrinks[0]) => {
     const defaultMilk =

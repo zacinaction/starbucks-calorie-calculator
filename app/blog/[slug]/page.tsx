@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { Calendar, Clock, ArrowLeft } from "lucide-react";
 import { blogPosts } from "@/data/blog-posts";
+import React from "react";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -47,8 +48,8 @@ export default async function BlogPostPage({ params }: PageProps) {
   }
 
   // Helper function to parse HTML tags in text
-  const parseHTML = (text: string): (string | JSX.Element)[] => {
-    const parts: (string | JSX.Element)[] = [];
+  const parseHTML = (text: string): (string | React.ReactElement)[] => {
+    const parts: (string | React.ReactElement)[] = [];
     let lastIndex = 0;
     const regex = /<b>(.*?)<\/b>/g;
     let match;
@@ -74,7 +75,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   // Simple markdown-like rendering with HTML support
   const formatContent = (content: string) => {
     const lines = content.split("\n");
-    const elements: JSX.Element[] = [];
+    const elements: React.ReactElement[] = [];
     let currentParagraph: string[] = [];
     let listItems: string[] = [];
     let inList = false;

@@ -14,7 +14,7 @@ export default function ContactPage() {
         Contact Us
       </h1>
       <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-        Have a question, suggestion, or found an error? We'd love to hear from
+        Have a question, suggestion, or found an error? We&apos;d love to hear from
         you!
       </p>
 

@@ -14,7 +14,7 @@ export default function AboutPage() {
         About Us
       </h1>
       <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-        We're passionate about helping you make informed choices about your
+        We&apos;re passionate about helping you make informed choices about your
         favorite Starbucks drinks.
       </p>
 
@@ -30,7 +30,7 @@ export default function AboutPage() {
               <p className="text-gray-700 leading-relaxed">
                 Our mission is to provide accurate, easy-to-use tools that help
                 people make informed decisions about their nutrition. We believe
-                that understanding what's in your food and drinks is the first
+                that understanding what&apos;s in your food and drinks is the first
                 step toward a healthier lifestyle. The Starbucks Calorie
                 Calculator empowers you to customize your drinks while staying
                 aware of their nutritional impact.
@@ -48,7 +48,7 @@ export default function AboutPage() {
                 What We Do
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                We've created a comprehensive calculator that allows you to:
+                We&apos;ve created a comprehensive calculator that allows you to:
               </p>
               <ul className="list-disc list-inside space-y-2 text-gray-700 ml-4">
                 <li>Calculate calories for any customized Starbucks drink</li>
@@ -81,7 +81,7 @@ export default function AboutPage() {
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Transparency</h3>
                   <p>
-                    We're transparent about our data sources and calculation
+                    We&apos;re transparent about our data sources and calculation
                     methods. Check our changelog to see recent updates.
                   </p>
                 </div>
