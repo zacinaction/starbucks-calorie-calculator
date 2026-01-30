@@ -1,0 +1,816 @@
+{
+  "baseDrinks": [
+    {
+      "id": "cold-brew",
+      "name": "Cold Brew",
+      "calories": {
+        "tall": 5,
+        "grande": 5,
+        "venti": 10
+      },
+      "caffeine": {
+        "tall": 155,
+        "grande": 205,
+        "venti": 310
+      },
+      "fat": {
+        "tall": 0,
+        "grande": 0,
+        "venti": 0
+      },
+      "carbs": {
+        "tall": 0,
+        "grande": 0,
+        "venti": 0
+      },
+      "protein": {
+        "tall": 0,
+        "grande": 0,
+        "venti": 0
+      },
+      "defaultMilk": "none"
+    },
+    {
+      "id": "latte",
+      "name": "Caffè Latte",
+      "calories": {
+        "tall": 150,
+        "grande": 190,
+        "venti": 250
+      },
+      "caffeine": {
+        "tall": 75,
+        "grande": 150,
+        "venti": 225
+      },
+      "fat": {
+        "tall": 7,
+        "grande": 9,
+        "venti": 11
+      },
+      "carbs": {
+        "tall": 13,
+        "grande": 18,
+        "venti": 26
+      },
+      "protein": {
+        "tall": 13,
+        "grande": 13,
+        "venti": 18
+      },
+      "defaultMilk": "2percent"
+    },
+    {
+      "id": "cappuccino",
+      "name": "Cappuccino",
+      "calories": {
+        "tall": 80,
+        "grande": 120,
+        "venti": 140
+      },
+      "caffeine": {
+        "tall": 75,
+        "grande": 150,
+        "venti": 225
+      },
+      "fat": {
+        "tall": 4,
+        "grande": 6,
+        "venti": 7
+      },
+      "carbs": {
+        "tall": 8,
+        "grande": 12,
+        "venti": 14
+      },
+      "protein": {
+        "tall": 5,
+        "grande": 8,
+        "venti": 10
+      },
+      "defaultMilk": "2percent"
+    },
+    {
+      "id": "americano",
+      "name": "Caffè Americano",
+      "calories": {
+        "tall": 10,
+        "grande": 15,
+        "venti": 25
+      },
+      "caffeine": {
+        "tall": 150,
+        "grande": 225,
+        "venti": 300
+      },
+      "fat": {
+        "tall": 0,
+        "grande": 0,
+        "venti": 0
+      },
+      "carbs": {
+        "tall": 2,
+        "grande": 3,
+        "venti": 4
+      },
+      "protein": {
+        "tall": 1,
+        "grande": 1,
+        "venti": 1
+      },
+      "defaultMilk": "none"
+    },
+    {
+      "id": "mocha",
+      "name": "Caffè Mocha",
+      "calories": {
+        "tall": 290,
+        "grande": 360,
+        "venti": 470
+      },
+      "caffeine": {
+        "tall": 95,
+        "grande": 175,
+        "venti": 265
+      },
+      "fat": {
+        "tall": 11,
+        "grande": 15,
+        "venti": 19
+      },
+      "carbs": {
+        "tall": 35,
+        "grande": 45,
+        "venti": 59
+      },
+      "protein": {
+        "tall": 13,
+        "grande": 13,
+        "venti": 18
+      },
+      "defaultMilk": "2percent"
+    },
+    {
+      "id": "frappuccino",
+      "name": "Coffee Frappuccino",
+      "calories": {
+        "tall": 230,
+        "grande": 290,
+        "venti": 380
+      },
+      "caffeine": {
+        "tall": 75,
+        "grande": 95,
+        "venti": 130
+      },
+      "fat": {
+        "tall": 3,
+        "grande": 4,
+        "venti": 5
+      },
+      "carbs": {
+        "tall": 47,
+        "grande": 59,
+        "venti": 78
+      },
+      "protein": {
+        "tall": 3,
+        "grande": 4,
+        "venti": 5
+      },
+      "defaultMilk": "2percent"
+    },
+    {
+      "id": "pink-drink",
+      "name": "Pink Drink",
+      "calories": {
+        "tall": 140,
+        "grande": 180,
+        "venti": 240
+      },
+      "caffeine": {
+        "tall": 45,
+        "grande": 45,
+        "venti": 60
+      },
+      "fat": {
+        "tall": 2.5,
+        "grande": 2.5,
+        "venti": 3
+      },
+      "carbs": {
+        "tall": 27,
+        "grande": 27,
+        "venti": 36
+      },
+      "protein": {
+        "tall": 1,
+        "grande": 1,
+        "venti": 1
+      },
+      "defaultMilk": "coconut"
+    },
+    {
+      "id": "matcha-latte",
+      "name": "Matcha Green Tea Latte",
+      "calories": {
+        "tall": 240,
+        "grande": 290,
+        "venti": 350
+      },
+      "caffeine": {
+        "tall": 55,
+        "grande": 80,
+        "venti": 110
+      },
+      "fat": {
+        "tall": 7,
+        "grande": 9,
+        "venti": 11
+      },
+      "carbs": {
+        "tall": 33,
+        "grande": 42,
+        "venti": 53
+      },
+      "protein": {
+        "tall": 13,
+        "grande": 13,
+        "venti": 18
+      },
+      "defaultMilk": "2percent"
+    },
+    {
+      "id": "caramel-macchiato",
+      "name": "Caramel Macchiato",
+      "calories": {
+        "tall": 180,
+        "grande": 250,
+        "venti": 340
+      },
+      "caffeine": {
+        "tall": 75,
+        "grande": 150,
+        "venti": 225
+      },
+      "fat": {
+        "tall": 6,
+        "grande": 8,
+        "venti": 11
+      },
+      "carbs": {
+        "tall": 25,
+        "grande": 34,
+        "venti": 45
+      },
+      "protein": {
+        "tall": 7,
+        "grande": 10,
+        "venti": 13
+      },
+      "defaultMilk": "2percent"
+    },
+    {
+      "id": "white-mocha",
+      "name": "White Chocolate Mocha",
+      "calories": {
+        "tall": 430,
+        "grande": 530,
+        "venti": 680
+      },
+      "caffeine": {
+        "tall": 75,
+        "grande": 150,
+        "venti": 225
+      },
+      "fat": {
+        "tall": 18,
+        "grande": 22,
+        "venti": 28
+      },
+      "carbs": {
+        "tall": 53,
+        "grande": 66,
+        "venti": 85
+      },
+      "protein": {
+        "tall": 13,
+        "grande": 13,
+        "venti": 18
+      },
+      "defaultMilk": "2percent"
+    },
+    {
+      "id": "vanilla-latte",
+      "name": "Vanilla Latte",
+      "calories": {
+        "tall": 250,
+        "grande": 320,
+        "venti": 410
+      },
+      "caffeine": {
+        "tall": 75,
+        "grande": 150,
+        "venti": 225
+      },
+      "fat": {
+        "tall": 7,
+        "grande": 9,
+        "venti": 11
+      },
+      "carbs": {
+        "tall": 35,
+        "grande": 45,
+        "venti": 58
+      },
+      "protein": {
+        "tall": 13,
+        "grande": 13,
+        "venti": 18
+      },
+      "defaultMilk": "2percent"
+    },
+    {
+      "id": "iced-latte",
+      "name": "Iced Caffè Latte",
+      "calories": {
+        "tall": 100,
+        "grande": 130,
+        "venti": 190
+      },
+      "caffeine": {
+        "tall": 75,
+        "grande": 150,
+        "venti": 225
+      },
+      "fat": {
+        "tall": 4,
+        "grande": 5,
+        "venti": 7
+      },
+      "carbs": {
+        "tall": 10,
+        "grande": 13,
+        "venti": 19
+      },
+      "protein": {
+        "tall": 8,
+        "grande": 10,
+        "venti": 13
+      },
+      "defaultMilk": "2percent"
+    },
+    {
+      "id": "chai-latte",
+      "name": "Chai Tea Latte",
+      "calories": {
+        "tall": 240,
+        "grande": 310,
+        "venti": 410
+      },
+      "caffeine": {
+        "tall": 50,
+        "grande": 95,
+        "venti": 120
+      },
+      "fat": {
+        "tall": 4.5,
+        "grande": 6,
+        "venti": 8
+      },
+      "carbs": {
+        "tall": 42,
+        "grande": 54,
+        "venti": 71
+      },
+      "protein": {
+        "tall": 8,
+        "grande": 10,
+        "venti": 13
+      },
+      "defaultMilk": "2percent"
+    },
+    {
+      "id": "flat-white",
+      "name": "Flat White",
+      "calories": {
+        "tall": 170,
+        "grande": 220,
+        "venti": 300
+      },
+      "caffeine": {
+        "tall": 130,
+        "grande": 195,
+        "venti": 195
+      },
+      "fat": {
+        "tall": 9,
+        "grande": 11,
+        "venti": 15
+      },
+      "carbs": {
+        "tall": 13,
+        "grande": 18,
+        "venti": 26
+      },
+      "protein": {
+        "tall": 13,
+        "grande": 13,
+        "venti": 18
+      },
+      "defaultMilk": "2percent"
+    },
+    {
+      "id": "espresso",
+      "name": "Espresso",
+      "calories": {
+        "tall": 5,
+        "grande": 10,
+        "venti": 15
+      },
+      "caffeine": {
+        "tall": 75,
+        "grande": 150,
+        "venti": 225
+      },
+      "fat": {
+        "tall": 0,
+        "grande": 0,
+        "venti": 0
+      },
+      "carbs": {
+        "tall": 0,
+        "grande": 0,
+        "venti": 0
+      },
+      "protein": {
+        "tall": 0,
+        "grande": 0,
+        "venti": 0
+      },
+      "defaultMilk": "none"
+    }
+  ],
+  "milks": [
+    {
+      "id": "2percent",
+      "name": "2% Milk",
+      "calories": {
+        "tall": 80,
+        "grande": 110,
+        "venti": 150
+      },
+      "fat": {
+        "tall": 4,
+        "grande": 5,
+        "venti": 7
+      },
+      "carbs": {
+        "tall": 8,
+        "grande": 11,
+        "venti": 15
+      },
+      "protein": {
+        "tall": 8,
+        "grande": 11,
+        "venti": 15
+      }
+    },
+    {
+      "id": "whole",
+      "name": "Whole Milk",
+      "calories": {
+        "tall": 90,
+        "grande": 120,
+        "venti": 160
+      },
+      "fat": {
+        "tall": 5,
+        "grande": 7,
+        "venti": 9
+      },
+      "carbs": {
+        "tall": 8,
+        "grande": 11,
+        "venti": 15
+      },
+      "protein": {
+        "tall": 8,
+        "grande": 11,
+        "venti": 15
+      }
+    },
+    {
+      "id": "nonfat",
+      "name": "Nonfat Milk",
+      "calories": {
+        "tall": 50,
+        "grande": 70,
+        "venti": 90
+      },
+      "fat": {
+        "tall": 0,
+        "grande": 0,
+        "venti": 0
+      },
+      "carbs": {
+        "tall": 7,
+        "grande": 10,
+        "venti": 13
+      },
+      "protein": {
+        "tall": 8,
+        "grande": 11,
+        "venti": 15
+      }
+    },
+    {
+      "id": "almond",
+      "name": "Almond Milk",
+      "calories": {
+        "tall": 30,
+        "grande": 40,
+        "venti": 50
+      },
+      "fat": {
+        "tall": 2.5,
+        "grande": 3,
+        "venti": 4
+      },
+      "carbs": {
+        "tall": 2,
+        "grande": 3,
+        "venti": 4
+      },
+      "protein": {
+        "tall": 1,
+        "grande": 1,
+        "venti": 2
+      }
+    },
+    {
+      "id": "oat",
+      "name": "Oat Milk",
+      "calories": {
+        "tall": 60,
+        "grande": 80,
+        "venti": 100
+      },
+      "fat": {
+        "tall": 3,
+        "grande": 4,
+        "venti": 5
+      },
+      "carbs": {
+        "tall": 7,
+        "grande": 9,
+        "venti": 11
+      },
+      "protein": {
+        "tall": 2,
+        "grande": 3,
+        "venti": 4
+      }
+    },
+    {
+      "id": "soy",
+      "name": "Soy Milk",
+      "calories": {
+        "tall": 50,
+        "grande": 70,
+        "venti": 90
+      },
+      "fat": {
+        "tall": 2,
+        "grande": 3,
+        "venti": 4
+      },
+      "carbs": {
+        "tall": 4,
+        "grande": 6,
+        "venti": 8
+      },
+      "protein": {
+        "tall": 4,
+        "grande": 6,
+        "venti": 8
+      }
+    },
+    {
+      "id": "coconut",
+      "name": "Coconut Milk",
+      "calories": {
+        "tall": 40,
+        "grande": 50,
+        "venti": 60
+      },
+      "fat": {
+        "tall": 3,
+        "grande": 4,
+        "venti": 5
+      },
+      "carbs": {
+        "tall": 2,
+        "grande": 3,
+        "venti": 4
+      },
+      "protein": {
+        "tall": 0,
+        "grande": 0,
+        "venti": 0
+      }
+    },
+    {
+      "id": "none",
+      "name": "No Milk",
+      "calories": {
+        "tall": 0,
+        "grande": 0,
+        "venti": 0
+      },
+      "fat": {
+        "tall": 0,
+        "grande": 0,
+        "venti": 0
+      },
+      "carbs": {
+        "tall": 0,
+        "grande": 0,
+        "venti": 0
+      },
+      "protein": {
+        "tall": 0,
+        "grande": 0,
+        "venti": 0
+      }
+    }
+  ],
+  "syrups": [
+    {
+      "id": "vanilla",
+      "name": "Vanilla Syrup",
+      "caloriesPerPump": 20,
+      "defaultPumps": {
+        "tall": 3,
+        "grande": 4,
+        "venti": 5
+      }
+    },
+    {
+      "id": "caramel",
+      "name": "Caramel Syrup",
+      "caloriesPerPump": 25,
+      "defaultPumps": {
+        "tall": 3,
+        "grande": 4,
+        "venti": 5
+      }
+    },
+    {
+      "id": "hazelnut",
+      "name": "Hazelnut Syrup",
+      "caloriesPerPump": 20,
+      "defaultPumps": {
+        "tall": 3,
+        "grande": 4,
+        "venti": 5
+      }
+    },
+    {
+      "id": "mocha",
+      "name": "Mocha Sauce",
+      "caloriesPerPump": 25,
+      "defaultPumps": {
+        "tall": 2,
+        "grande": 3,
+        "venti": 4
+      }
+    },
+    {
+      "id": "white-mocha",
+      "name": "White Mocha Sauce",
+      "caloriesPerPump": 60,
+      "defaultPumps": {
+        "tall": 2,
+        "grande": 3,
+        "venti": 4
+      }
+    },
+    {
+      "id": "cinnamon-dolce",
+      "name": "Cinnamon Dolce Syrup",
+      "caloriesPerPump": 20,
+      "defaultPumps": {
+        "tall": 3,
+        "grande": 4,
+        "venti": 5
+      }
+    },
+    {
+      "id": "toffee-nut",
+      "name": "Toffee Nut Syrup",
+      "caloriesPerPump": 20,
+      "defaultPumps": {
+        "tall": 3,
+        "grande": 4,
+        "venti": 5
+      }
+    },
+    {
+      "id": "peppermint",
+      "name": "Peppermint Syrup",
+      "caloriesPerPump": 20,
+      "defaultPumps": {
+        "tall": 3,
+        "grande": 4,
+        "venti": 5
+      }
+    },
+    {
+      "id": "raspberry",
+      "name": "Raspberry Syrup",
+      "caloriesPerPump": 20,
+      "defaultPumps": {
+        "tall": 3,
+        "grande": 4,
+        "venti": 5
+      }
+    },
+    {
+      "id": "classic",
+      "name": "Classic Syrup",
+      "caloriesPerPump": 20,
+      "defaultPumps": {
+        "tall": 3,
+        "grande": 4,
+        "venti": 5
+      }
+    }
+  ],
+  "toppings": [
+    {
+      "id": "whipped-cream",
+      "name": "Whipped Cream",
+      "calories": 70,
+      "fat": 7,
+      "carbs": 1,
+      "protein": 1
+    },
+    {
+      "id": "caramel-drizzle",
+      "name": "Caramel Drizzle",
+      "calories": 25,
+      "fat": 1,
+      "carbs": 4,
+      "protein": 0
+    },
+    {
+      "id": "mocha-drizzle",
+      "name": "Mocha Drizzle",
+      "calories": 25,
+      "fat": 1,
+      "carbs": 4,
+      "protein": 0
+    },
+    {
+      "id": "cinnamon-powder",
+      "name": "Cinnamon Powder",
+      "calories": 0,
+      "fat": 0,
+      "carbs": 0,
+      "protein": 0
+    },
+    {
+      "id": "vanilla-powder",
+      "name": "Vanilla Powder",
+      "calories": 0,
+      "fat": 0,
+      "carbs": 0,
+      "protein": 0
+    },
+    {
+      "id": "chocolate-powder",
+      "name": "Chocolate Powder",
+      "calories": 5,
+      "fat": 0,
+      "carbs": 1,
+      "protein": 0
+    },
+    {
+      "id": "sprinkles",
+      "name": "Sprinkles",
+      "calories": 10,
+      "fat": 0,
+      "carbs": 2,
+      "protein": 0
+    },
+    {
+      "id": "cookie-crumble",
+      "name": "Cookie Crumble Topping",
+      "calories": 50,
+      "fat": 2,
+      "carbs": 7,
+      "protein": 1
+    }
+  ]
+}
