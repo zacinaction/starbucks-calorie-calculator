@@ -4,3 +4,10 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+# Site moved to its canonical domain: 301 everything to starbucks-calorie-calculators.com
+[[redirects]]
+  from = "/*"
+  to = "https://starbucks-calorie-calculators.com/:splat"
+  status = 301
+  force = true
